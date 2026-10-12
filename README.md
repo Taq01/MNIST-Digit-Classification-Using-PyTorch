@@ -20,16 +20,20 @@ MNIST dataset
 -Test Accuracy: 98.62%
 -Test Error: 1.38%
 
-# Confusion Matrix
-![Confusion Matrix](demo/eval.png)
+<h1>Confusion Matrix</h1>
 
+<p align="center">
+  <img src="demo/eval.png" alt="Confusion Matrix" width="500">
+</p>
 
 # Web App
 
 A Flask page that loads the trained weights and shows 10 random images with predictions from the test set.
 
-![Model Performance](demo/demo_2.png)
-
+ 
+<p align="center">
+  <img src="demo/demo_2.png" alt="Confusion Matrix" width="500">
+</p>
 
 # How to run
 python -m webapp.app
